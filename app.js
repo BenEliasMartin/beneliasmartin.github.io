@@ -16,6 +16,12 @@ image.addEventListener('mouseover', () => {
 })
 header.innerHTML = ""
 
+function niceEffect() {
+    setTimeout(function () {
+        document.querySelector(".main").style.height = "85vh";
+    }, 100)
+}
+
 function loopThroughSplittedText(splittedText) {
     for (var i = 0; i < splittedText.length; i++) {
         (function (i) {
@@ -26,5 +32,5 @@ function loopThroughSplittedText(splittedText) {
         })(i);
     };
 }
-
+niceEffect()
 loopThroughSplittedText(myName)
