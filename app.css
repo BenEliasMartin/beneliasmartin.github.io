@@ -9,6 +9,7 @@ a {
 }
 
 .main {
+    border: 1px rgb(187, 187, 187) solid;
     color: white;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -27,6 +28,7 @@ a {
 }
 
 .bubble {
+    border: 1px rgb(187, 187, 187) solid;
     color: white;
     margin-bottom: 50px;
     border-radius: 40px;
@@ -104,6 +106,7 @@ a {
 }
 
 .techBubble {
+    border: 1px rgb(187, 187, 187) solid;
     color: white;
     margin-bottom: 50px;
     border-radius: 40px;
