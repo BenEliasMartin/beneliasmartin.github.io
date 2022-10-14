@@ -202,6 +202,7 @@ hr {
 }
 
 .example {
+    padding-top: 5px;
     width: 40%;
     border-radius: 20px;
     background-color: black;
