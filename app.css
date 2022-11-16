@@ -1,7 +1,5 @@
 body {
     background: linear-gradient(122.78deg, #FF8E8E -2.11%, #2F498C 89.12%);
-    /*background: url(BackGround.png);
-    background-size: cover;*/
 }
 
 a {
@@ -11,14 +9,14 @@ a {
 .main {
     border: 1px rgb(187, 187, 187) solid;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 0.097);
     height: 70vh;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.25), 0px 0px 10px white;
     transition: 0.6s;
     display: flex;
     text-align: center;
@@ -33,8 +31,8 @@ a {
     margin-bottom: 50px;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 0.097);
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.25);
     transition: 0.8s;
     display: flex;
@@ -63,6 +61,10 @@ a {
     opacity: 0;
 }
 
+.detailsAch {
+    min-height: 12em;
+}
+
 .main h1 {
     margin-right: 10px;
     margin-bottom: 0px;
@@ -87,7 +89,7 @@ a {
 }
 
 .main:hover {
-    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.25), 0px 0px 0px white;
 }
 
 .aboutMe {
@@ -111,8 +113,8 @@ a {
     margin-bottom: 50px;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 0.097);
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.25);
     transition: 0.6s;
     display: flex;
@@ -152,4 +154,66 @@ hr {
     justify-content: center;
     width: 100%;
     display: flex;
+}
+
+.images {
+    justify-content: center;
+}
+
+.images img {
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.images div {
+    margin: 50px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.image1 {
+    background: url(sciOl.png);
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+}
+
+.image2 {
+    background: url(NZZ_Ben.JPG);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+.image3 {
+    background: url(RadioBeo.png);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+
+.image4 {
+    background: url(scratchfame.png);
+    width: 500px;
+    height: 500x;
+    background-size: cover;
+}
+
+.gal h2 {
+    color: white;
+}
+
+
+.navbar {
+    box-shadow: 0px 0px 50px grey;
+    background-color: rgba(36, 33, 33, 0.535);
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
