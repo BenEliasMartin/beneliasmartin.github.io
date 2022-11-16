@@ -1,7 +1,7 @@
 body {
-    /*background: linear-gradient(122.78deg, #FF8E8E -2.11%, #2F498C 89.12%);*/
-    background: url(BackGround.png);
-    background-size: cover;
+    background: linear-gradient(122.78deg, #FF8E8E -2.11%, #2F498C 89.12%);
+    /*background: url(BackGround.png);
+    background-size: cover;*/
 }
 
 a {
