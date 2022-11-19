@@ -4,12 +4,19 @@
 
 }
 
-html {
-    background: linear-gradient(162.08deg, #FFFFFF 28.28%, #94b5d3 98.74%);
+@media only screen and (max-width: 600px) {
+    #cube {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #cube {
+        width: 16%;
+    }
 }
 
 #cube {
-    width: 20%;
     transition: 0.2s;
 }
 
