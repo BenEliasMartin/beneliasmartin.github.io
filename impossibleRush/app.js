@@ -125,7 +125,7 @@ function game() {
             game();
         }
         else {
-            ball.style.display = "none";
+            restart();
         }
     }, iterationsBall * speed) // update the score after the ball landed
 
@@ -134,11 +134,18 @@ function game() {
 function hideStartInstructions() {
     startInstructions.style.display = "none";
 }
+function restart() {
+    speed = 70;
+    score = 0;
+    scoreHTML.innerHTML = score;
+    startButton.innerHTML = "Click to restart"
+    startInstructions.style.display = "block";
+}
 function start() {
+    score = 0;
     hideStartInstructions()
     game()
 }
 startButton.addEventListener("click", () => {
     start()
 })
-
