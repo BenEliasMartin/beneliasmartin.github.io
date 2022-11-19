@@ -4,6 +4,10 @@
 
 }
 
+body {
+    background-color: #E1BDF8;
+}
+
 @media only screen and (max-width: 600px) {
     #cube {
         width: 50%;
@@ -18,6 +22,7 @@
 
 #cube {
     transition: 0.2s;
+    border-radius: 5px;
 }
 
 .main {
@@ -58,7 +63,7 @@
 }
 
 h1 {
-    color: rgb(141, 141, 141);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 4rem;
 
